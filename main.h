@@ -16,4 +16,5 @@
 
 /* SIZES */
 #define S_SHORT 1
+int _printf(const char *format, ...);
 #endif
