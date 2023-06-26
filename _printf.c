@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdarg.h>
 
 void print_buffer(char buffer[], int *buff_ind);
 
@@ -53,7 +54,7 @@ int _printf(const char *format, ...)
 }
 
 /**
- * print_buffer - print every buffer 
+ * print_buffer - print every buffer
  * @buff_ind: index
  * @buffer: characters arrays
  *
