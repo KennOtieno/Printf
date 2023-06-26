@@ -17,4 +17,14 @@
 /* SIZES */
 #define S_SHORT 1
 int _printf(const char *format, ...);
+
+/**
+ * typedef struct format - the format for printf
+ * @f1: format character
+ * @ff1: funtion for the format
+ */
+typedef struct format
+{
+	char f1;
+	int (ff1)(
 #endif
