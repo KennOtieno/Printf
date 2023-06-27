@@ -1,13 +1,13 @@
 #include "main.h"
-
+int print_hexa(va_list types, char map_to[], char buffer[],
+	       int flags, char flag_ch, int width, int precision, int size);
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
  * print_unsigned - Prints an unsigned number
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
- * @width: get width
- * @precision: Precision specification
+ * @width: get width* @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed.
  */
